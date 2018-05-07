@@ -1,56 +1,29 @@
-
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
-
-
-remote_theme: "hyde"
-
-
-# Dependencies
-markdown:         redcarpet
-highlighter:      pygments
+#markdown:         'redcarpet'
+highlighter:      'pygments'
 
 # Permalinks
 permalink:        pretty
 relative_permalinks: true
 
-
-title: Tommy's Blog
+# Setup
+title:            Tommy's Blog
 tagline:          'Experiences, Discoveries, and occasional opinions of a software engineer'
-email: tommy@gmetrix.com
-description: >- # this means to ignore newlines until "baseurl:"
-  Experiences, Discoveries, and occasional opinions of a software engineer
-baseurl: "https://simpert.github.io/" # the subpath of your site, e.g. /blog
-author: "Tommy Simper"
+description:      'A brazen two-column <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that pairs a prominent sidebar with uncomplicated content. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
+url:              https://simpert.github.io
+baseurl:          /
 
-url: "https://simpert.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
+author:
+  name:           'Tommy Simper'
+  url:            https://twitter.com/TommySimper
 
-twitter_username: tommysimper
-github_username:  simpert
-github:
-  repo:           "https://simpert.github.io"
 paginate:         5
 
 # Custom vars
 version:          2.1.0
 
-# Build settings
-#markdown: kramdown
-#theme: minima
-#plugins:
-#  - jekyll-feed
+github:           'https://github.com/simpert'
+  repo:           'simpert.github.com'
 
-# Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+#twitter_username: tommysimper
+#github_username:  simpert
+#email: tommy@gmetrix.com
