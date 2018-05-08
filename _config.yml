@@ -13,8 +13,8 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title:            Tommy's Blog
-tagline:          'Experiences, Discoveries, and occasional opinions of a software engineer'
+title:            Tommy Simper's Blog
+tagline:          'Another Software Engineer'
 email:            tommy@gmetrix.com
 description: >- 
   A Blog of Experiences, Discoveries, and occasional opinions of a software engineer.
