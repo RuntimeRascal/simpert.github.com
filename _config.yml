@@ -22,7 +22,7 @@ paginate:         3
 highlighter:      pygments
 
 # Permalinks
-permalink:        pretty
+#permalink:        pretty
 #relative_permalinks: true
 
 # Custom vars
