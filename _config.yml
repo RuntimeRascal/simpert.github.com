@@ -8,7 +8,7 @@
 # in the templates via {{ site.myvariable }}.
 
 title:            Tommy Simper's Blog
-tagline:          'Software Engineer @GMetrix'
+tagline:          'Software Engineer @ <a href="http://www.gmetrix.com">GMetrix</a>'
 email:            tommy@gmetrix.com
 description:      'A Blog of Experiences, Discoveries, and Occasional Opinions of a Software Engineer.'
 baseurl:          '/'
