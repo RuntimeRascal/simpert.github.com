@@ -18,7 +18,7 @@ tagline:          'Another Software Engineer'
 email:            tommy@gmetrix.com
 description: >- 
   A Blog of Experiences, Discoveries, and occasional opinions of a software engineer.
-baseurl:          "/" # the subpath of your site, e.g. /blog
+baseurl:          "https://simpert.github.io/" # the subpath of your site, e.g. /blog
 url:              "https://simpert.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: tommysimper
 github_username:  simpert
@@ -28,6 +28,8 @@ markdown: kramdown
 #theme: minima
 #plugins:
 #  - jekyll-feed
+
+paginate:  3
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
@@ -57,6 +59,6 @@ author:
   name:           'Tommy Simper'
   url:            https://twitter.com/TommySimper
 
-# github:
-#   repo:           https://github.com/simpert/simpert.github.com
+github:
+  repo:           https://github.com/simpert/simpert.github.com/
 
