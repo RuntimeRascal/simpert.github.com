@@ -27,15 +27,29 @@
 }
 
 .sidebar-nav-links {
-  margin-left: -4px;
-  margin-top: .9rem;
+  /* margin-left: -4px;
+  margin-top: .9rem; */
+  height: 50px;
 }
 
 .sidebar-nav-links a {
   display: inline-block;
   margin-right: 5px;
+  position: relative;
+  top: 0;
+  transition: top ease 0.5s;
 }
 
 .sidebar a {
   color: #fff;
+}
+
+.fix-to-bot {
+  position: fixed;
+  bottom: 0px;
+}
+
+a.sidebar-nav-social:hover,
+a.sidebar-nav-social:focus {
+  top: -10px;
 }

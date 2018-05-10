@@ -116,6 +116,7 @@ html {
 
 .sidebar-nav {
   margin-bottom: 1rem;
+
 }
 
 .sidebar-nav-item {
@@ -123,9 +124,15 @@ html {
   line-height: 1.75;
 }
 
+.item-light {
+  background-color: #292929f8;
+}
+
 a.sidebar-nav-item:hover,
 a.sidebar-nav-item:focus {
   text-decoration: underline;
+  background-color: #383838f8;
+
 }
 
 .sidebar-nav-item.active {
